@@ -10,7 +10,7 @@ public class Fibonacci {
 
 	}
 
-	public static int fibonacci(int n) {
+	public static long fibonacci(long n) {
 		if (n <= 1) {
 			return n;
 		} else {
@@ -22,6 +22,7 @@ public class Fibonacci {
 	public static void main(String[] args) {
 		System.out.println(fibonacci(2));
 		System.out.println(fibonacci(10));
+		System.out.println(fibonacci(100));
 	}
 
 }
