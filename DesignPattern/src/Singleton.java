@@ -1,3 +1,8 @@
+/**
+ * 
+ * @author lwang
+ * Basic solution, not thread safe.
+ */
 
 public class Singleton {
 	private static Singleton singleton = null;
